@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-08-10T07:41:42.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xrGG6se4EGvP6HO6tdYi" version="21.6.2" type="device">
+  <diagram name="Trang-1" id="kI6lLW9t-8SH8tasYPWs">
+    <mxGraphModel dx="1499" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6jjE0O6cVGJBn6OU-fu8-2" value="&lt;b&gt;Đơn đặt hàng&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6jjE0O6cVGJBn6OU-fu8-3" value="&lt;b&gt;Mã đơn&amp;nbsp; int primary key&lt;br&gt;Tên khách varchar(255)&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Địa chỉ varchar(255)&lt;br&gt;Số điện thoại int&amp;nbsp;&lt;br&gt;Ngày đặt date&lt;br&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;Số lượng int&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6jjE0O6cVGJBn6OU-fu8-2">
+          <mxGeometry y="40" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6jjE0O6cVGJBn6OU-fu8-4" value="&lt;b&gt;Phiếu giao hàng&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="130" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6jjE0O6cVGJBn6OU-fu8-5" value="&lt;b&gt;Mã phiếu&amp;nbsp; int primary key&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;Ngày giao hàng date&lt;br&gt;Mã đơn int foreing key&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6jjE0O6cVGJBn6OU-fu8-4">
+          <mxGeometry y="40" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6jjE0O6cVGJBn6OU-fu8-6" value="&lt;b&gt;Hàng hóa&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="390" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6jjE0O6cVGJBn6OU-fu8-7" value="&lt;b&gt;Mã hàng int primary key&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Tên hàng varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Mô tả hàng varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Đơn vị tính varchar(50)&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6jjE0O6cVGJBn6OU-fu8-6">
+          <mxGeometry y="40" width="200" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
