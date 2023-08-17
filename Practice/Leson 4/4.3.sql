@@ -36,3 +36,6 @@ select * from overview where (diemToan+diemLy+diemHoa);
 select * from overview
 where (diemToan+diemLy+diemHoa)=(select max(diemToan+diemLy+diemHoa) as 'maxScore' from overview); 
 
+select * from overview where (diemToan+diemLy+diemHoa)
+order by (diemToan+diemLy+diemHoa) DESC;
+
